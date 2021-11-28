@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inicio - SynapTech Ltda</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <!-- BANNER PRINCIPAL -->
+    <div class="hero-image">
+      <div class="hero-text">
+	<h1>SynapTech Ltda</h1>
+	<p id="greeting" style="font-size:20px">Investigación y desarrollo</p>
+
+	<p>English version</p>
+      </div>
+    </div>
+
+    
+    <script id="javascript">
+    // Cambia el texto cada 3 segundos
+      var text = ["La libertad se vive en los márgenes", "Si se puede hackear, ¡hackéalo!", "No queremos barreras de acceso a las tecnologías"];
+      var elem = document.getElementById("greeting");
+      setInterval(change, 15000);
+      function change() {
+	  counter1 = between(0, text.length - 1);	  
+	  elem.innerHTML = text[counter1];
+          //counter1++;
+          //if(counter1 >= text.length) { counter1 = 0; }
+
+	  function between(min, max) {  
+	      return Math.floor(
+		  Math.random() * (max - min + 1) + min
+	      )
+	  }
+	  // Imprime en consola
+	  console.log(counter1)
+      }
+
+    </script>
+    
+    
+    <!-- <script src="assets/js/mapa.js"></script> -->
+    <!-- MENU INVESTIGACION -->
+    <section>
+      <hr>
+      <div>
+	<ul class="media-menu">
+	  <!-- Investigacion -->
+	  <li><a href="#">
+	      <h2>Investigación y desarrollo</h2>
+	      <p>Desarrollamos equipos y soluciones de investigación a tu medida.</p>      
+	  </a></li>
+	  
+	  <!-- Asesorías -->
+	  <li><a href="#">
+	      <h2>Asesorías en análisis de datos</h2>
+	      <p>Asesoramos el análisis de tus datos.</p>
+	  </a></li>
+	  
+	  <!-- Vinculos -->
+	  <li><a href="#">
+	      <h2>Vínculos con instituciones</h2>
+	      <p>Desarrollamos vínculos con liceos y otras instituciones. Contáctanos y colaboremos.</p>
+	  </a></li>  
+	</ul>
+      </div>
+      <hr>
+    </section>
+    
+    <!-- SECCION DESTACADOS -->
+    <section class="seccion-principal">
+      <!-- Primera fila -->
+      <div class="row">
+	<!-- Biosensor -->
+	<div class="column">
+	  <a href="biosensor.html">    
+	    <h3>Biosensor</h3>
+	    <img src="img/board.png" alt="Circuit" class="center">         
+	    <p>[Descripción]</p>
+	  </a>
+	</div>
+	<!-- Thermotaxis -->
+	<div class="column">
+	  <a href="thermotaxis.html">    
+	    <h3>Thermotaxis</h3>
+	    <img src="img/apparathus.png" alt="Thermotaxis apparathus" class="center">         
+	    <p>[Descripción]</p>
+	  </a>
+	</div>
+	<!-- Biotracker -->
+	<div class="column">
+	  <a href="biotracker.html">    
+	    <h3>Biotracker</h3>
+	    <img src="img/dimensionesCam.png" alt="Foto" class="center">         
+	    <p>[Descripción]</p>
+	  </a>
+	</div>
+      </div>
+      
+    </section>
+
+    <hr>
+    
+    <!-- FOOTER -->
+    <footer class="index-footer">
+      
+      <h1 id="footerId">¡CONTÁCTANOS!</h1>
+      
+<!--
+      <div style="text-align:center;">
+	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-instagram"></a>
+	<a href="#" class="fa fa-twitter"></a>
+	<a target="_blank" rel="noopener noreferrer" href="https://github.com/synaptech-ltda.html" class="fa fa-github"></a>
+      </div>
+      -->
+      
+      <br>
+      <p>Escríbenos a <a href="#"><i>synaptech.ltda@gmail.com<i></a> o <a target="_blank" rel="noopener noreferrer" href="#">únetenos en Discord</a></p>
+      <br>
+      
+      <!-- Columnas -->
+      <div class="row">
+	<div class="footer-column">
+	  <h4>TÍTULO</h4>
+	  <ul>
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	  </ul>    
+	</div>
+	<div class="footer-column">
+	  <h4>TÍTULO</h4>
+	  <ul>
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	  </ul>    
+	</div>
+	<div class="footer-column">
+	  <h4>TÍTULO</h4>
+	  <ul>
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	  </ul>    
+	</div>
+	<div class="footer-column">
+	  <h4>TÍTULO</h4>
+	  <ul>
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	    <li><a href="#">Título</a></li>      
+	  </ul>    
+	</div>
+	
+      </div>
+      
+      <br><br>
+      <p>Hosted by a <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/NR3X9ZvbGK"><i>CyberPunk Server</i></a></p>
+    </footer>
+    
+  </body>
+</html>
