@@ -21,10 +21,10 @@
 
     
     <script id="javascript">
-    // Cambia el texto cada 3 segundos
-      var text = ["La libertad se vive en los márgenes", "Si se puede hackear, ¡hackéalo!", "No queremos barreras de acceso a las tecnologías"];
+    // Cambia el texto cada 5 segundos
+      var text = ["Si se puede hackear, ¡hackéalo!", "No queremos barreras de acceso a las tecnologías"];
       var elem = document.getElementById("greeting");
-      setInterval(change, 15000);
+      setInterval(change, 5000);
       function change() {
 	  counter1 = between(0, text.length - 1);	  
 	  elem.innerHTML = text[counter1];
